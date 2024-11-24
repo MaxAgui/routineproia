@@ -15,7 +15,6 @@ class MainApp extends StatelessWidget {
     return MaterialApp(
       theme: ThemeData(
         colorSchemeSeed: const Color(myColorPrimary),
-        // ),
       ),
       home: const HomeScreen(),
     );
